@@ -5,7 +5,7 @@ public class App {
         String name = JOptionPane.showInputDialog("Please enter your name");
         JOptionPane.showMessageDialog(null,"Hello "+name);
 
-        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age:"));
+        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your ages:"));
         JOptionPane.showMessageDialog(null,"You are "+age+" years old");
 
 
